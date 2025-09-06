@@ -1,0 +1,31 @@
+[Phase-A Probe][FT] lr=0.001000 | F=0.01 | ASR=0.39 | CleanΔ=0.00
+[Phase-A Probe][FT] lr=0.005000 | F=0.20 | ASR=0.70 | CleanΔ=0.01
+[Phase-A SUCCESS][FT] lr* = 0.005000
+[Phase-A Probe][RL] lr=0.001000 | F=0.19 | ASR=0.86 | CleanΔ=-0.00
+[Phase-A Probe][RL] lr=0.005000 | F=0.45 | ASR=0.99 | CleanΔ=0.00
+[Phase-A SUCCESS][RL] lr* = 0.005000
+[Phase-A Probe][GA] lr=0.001000 | F=0.01 | ASR=0.35 | CleanΔ=0.00
+[Phase-A Probe][GA] lr=0.005000 | F=0.24 | ASR=0.73 | CleanΔ=0.01
+[Phase-A SUCCESS][GA] lr* = 0.005000
+[Phase-A Probe][NegGradPlus] lr=0.001000 | F=0.57 | ASR=1.00 | CleanΔ=0.01
+[Phase-A SUCCESS][NegGradPlus] lr* = 0.001000
+[Phase-A Probe][SaLun] lr=0.001000 | F=0.00 | ASR=0.25 | CleanΔ=-0.00
+[Phase-A Probe][SaLun] lr=0.005000 | F=0.00 | ASR=0.23 | CleanΔ=-0.00
+[Phase-A Probe][SaLun] lr=0.010000 | F=0.00 | ASR=0.19 | CleanΔ=-0.00
+[Phase-A Probe][SaLun] lr=0.020000 | F=0.00 | ASR=0.16 | CleanΔ=-0.00
+[Phase-A][SaLun] No LR succeeded in [0.001, 0.005, 0.01, 0.02]. Expanding ×3 -> [0.003, 0.015, 0.03, 0.06]
+[Phase-A Probe][SaLun] lr=0.003000 | F=0.00 | ASR=0.24 | CleanΔ=-0.00
+[Phase-A Probe][SaLun] lr=0.015000 | F=0.00 | ASR=0.17 | CleanΔ=-0.00
+[Phase-A Probe][SaLun] lr=0.030000 | F=0.01 | ASR=0.15 | CleanΔ=0.00
+[Phase-A Probe][SaLun] lr=0.060000 | F=0.04 | ASR=0.14 | CleanΔ=0.01
+[Phase-A FAIL][SaLun] No LR met all criteria.
+train_retain_dl: 49400
+train_forget_dl: 200
+dl_poison_train: 200
+test_poison_dl: 9000
+test_clean_dl: 10000
+train_retain_dl: 49400
+train_forget_dl: 200
+dl_poison_train: 200
+test_poison_dl: 9000
+test_clean_dl: 10000

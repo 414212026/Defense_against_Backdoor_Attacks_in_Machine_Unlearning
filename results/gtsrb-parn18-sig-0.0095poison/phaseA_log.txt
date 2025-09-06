@@ -1,0 +1,42 @@
+train_retain_dl: 39170
+train_forget_dl: 39
+dl_poison_train: 372
+test_poison_dl: 12510
+test_clean_dl: 12630
+train_retain_dl: 39170
+train_forget_dl: 39
+dl_poison_train: 372
+test_poison_dl: 12510
+test_clean_dl: 12630
+[Phase-A Probe][FT] lr=0.001000 | F=0.00 | ASR=0.05 | CleanΔ=0.00
+[Phase-A Probe][FT] lr=0.005000 | F=0.00 | ASR=0.08 | CleanΔ=0.00
+[Phase-A Probe][FT] lr=0.010000 | F=0.34 | ASR=0.17 | CleanΔ=0.09
+[Phase-A Probe][FT] lr=0.020000 | F=0.81 | ASR=0.51 | CleanΔ=0.05
+[Phase-A SUCCESS][FT] lr* = 0.020000
+[Phase-A Probe][RL] lr=0.001000 | F=0.63 | ASR=0.49 | CleanΔ=0.00
+[Phase-A Probe][RL] lr=0.005000 | F=0.76 | ASR=0.33 | CleanΔ=0.01
+[Phase-A Probe][RL] lr=0.010000 | F=0.87 | ASR=0.44 | CleanΔ=0.01
+[Phase-A Probe][RL] lr=0.020000 | F=0.87 | ASR=0.56 | CleanΔ=0.04
+[Phase-A SUCCESS][RL] lr* = 0.020000
+[Phase-A Probe][GA] lr=0.001000 | F=0.00 | ASR=0.04 | CleanΔ=0.00
+[Phase-A Probe][GA] lr=0.005000 | F=0.00 | ASR=0.04 | CleanΔ=0.01
+[Phase-A Probe][GA] lr=0.010000 | F=0.13 | ASR=0.03 | CleanΔ=0.03
+[Phase-A Probe][GA] lr=0.020000 | F=0.24 | ASR=0.02 | CleanΔ=0.28
+[Phase-A][GA] No LR succeeded in [0.001, 0.005, 0.01, 0.02]. Expanding ×3 -> [0.003, 0.015, 0.03, 0.06]
+[Phase-A Probe][GA] lr=0.003000 | F=0.00 | ASR=0.04 | CleanΔ=0.00
+[Phase-A Probe][GA] lr=0.015000 | F=0.18 | ASR=0.03 | CleanΔ=0.12
+[Phase-A Probe][GA] lr=0.030000 | F=0.50 | ASR=0.02 | CleanΔ=0.52
+[Phase-A Probe][GA] lr=0.060000 | F=0.95 | ASR=0.00 | CleanΔ=0.92
+[Phase-A FAIL][GA] No LR met all criteria.
+[Phase-A Probe][NegGradPlus] lr=0.001000 | F=0.89 | ASR=0.90 | CleanΔ=0.01
+[Phase-A SUCCESS][NegGradPlus] lr* = 0.001000
+[Phase-A Probe][SaLun] lr=0.001000 | F=0.00 | ASR=0.04 | CleanΔ=0.00
+[Phase-A Probe][SaLun] lr=0.005000 | F=0.03 | ASR=0.05 | CleanΔ=0.00
+[Phase-A Probe][SaLun] lr=0.010000 | F=0.13 | ASR=0.13 | CleanΔ=0.00
+[Phase-A Probe][SaLun] lr=0.020000 | F=0.32 | ASR=0.22 | CleanΔ=0.00
+[Phase-A][SaLun] No LR succeeded in [0.001, 0.005, 0.01, 0.02]. Expanding ×3 -> [0.003, 0.015, 0.03, 0.06]
+[Phase-A Probe][SaLun] lr=0.003000 | F=0.00 | ASR=0.04 | CleanΔ=0.00
+[Phase-A Probe][SaLun] lr=0.015000 | F=0.24 | ASR=0.19 | CleanΔ=0.00
+[Phase-A Probe][SaLun] lr=0.030000 | F=0.34 | ASR=0.24 | CleanΔ=0.00
+[Phase-A Probe][SaLun] lr=0.060000 | F=0.47 | ASR=0.29 | CleanΔ=0.01
+[Phase-A FAIL][SaLun] No LR met all criteria.

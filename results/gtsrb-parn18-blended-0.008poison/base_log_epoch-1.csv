@@ -1,0 +1,2 @@
+epoch,train_forget_acc,test_poison_acc,test_clean_acc,lr,epoch_time
+-1,1.0,0.2472,0.9907,0.0,0.0
