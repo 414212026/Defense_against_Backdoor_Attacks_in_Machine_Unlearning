@@ -1,0 +1,42 @@
+train_retain_dl: 49950
+train_forget_dl: 50
+dl_poison_train: 2500
+test_poison_dl: 9000
+test_clean_dl: 10000
+train_retain_dl: 49950
+train_forget_dl: 50
+dl_poison_train: 2500
+test_poison_dl: 9000
+test_clean_dl: 10000
+[Phase-A Probe][FT] lr=0.010000 | F=0.36 | ASR=0.01 | CleanΔ=0.03
+[Phase-A Probe][FT] lr=0.001000 | F=0.00 | ASR=0.02 | CleanΔ=0.00
+[Phase-A Probe][FT] lr=0.005000 | F=0.00 | ASR=0.01 | CleanΔ=0.01
+[Phase-A Probe][FT] lr=0.020000 | F=1.00 | ASR=0.81 | CleanΔ=0.07
+[Phase-A SUCCESS][FT] lr* = 0.020000
+[Phase-A Probe][RL] lr=0.010000 | F=0.82 | ASR=0.03 | CleanΔ=0.03
+[Phase-A Probe][RL] lr=0.001000 | F=0.29 | ASR=0.05 | CleanΔ=0.00
+[Phase-A Probe][RL] lr=0.005000 | F=0.76 | ASR=0.02 | CleanΔ=0.00
+[Phase-A Probe][RL] lr=0.020000 | F=0.91 | ASR=0.65 | CleanΔ=0.06
+[Phase-A SUCCESS][RL] lr* = 0.020000
+[Phase-A Probe][GA] lr=0.010000 | F=0.80 | ASR=0.92 | CleanΔ=0.01
+[Phase-A SUCCESS][GA] lr* = 0.010000
+[Phase-A Probe][NegGradPlus] lr=0.010000 | F=0.96 | ASR=0.00 | CleanΔ=0.07
+[Phase-A Probe][NegGradPlus] lr=0.001000 | F=0.96 | ASR=0.00 | CleanΔ=0.01
+[Phase-A Probe][NegGradPlus] lr=0.005000 | F=0.96 | ASR=0.00 | CleanΔ=0.02
+[Phase-A Probe][NegGradPlus] lr=0.020000 | F=1.00 | ASR=1.00 | CleanΔ=0.07
+[Phase-A SUCCESS][NegGradPlus] lr* = 0.020000
+[Phase-A Probe][SaLun] lr=0.010000 | F=0.18 | ASR=0.06 | CleanΔ=-0.00
+[Phase-A Probe][SaLun] lr=0.001000 | F=0.02 | ASR=0.04 | CleanΔ=0.00
+[Phase-A Probe][SaLun] lr=0.005000 | F=0.13 | ASR=0.07 | CleanΔ=0.00
+[Phase-A Probe][SaLun] lr=0.020000 | F=0.18 | ASR=0.08 | CleanΔ=0.00
+[Phase-A][SaLun] No LR succeeded in [0.01, 0.001, 0.005, 0.02]. Expanding ×3 -> [0.03, 0.003, 0.015, 0.06]
+[Phase-A Probe][SaLun] lr=0.030000 | F=0.38 | ASR=0.04 | CleanΔ=0.01
+[Phase-A Probe][SaLun] lr=0.003000 | F=0.11 | ASR=0.08 | CleanΔ=0.00
+[Phase-A Probe][SaLun] lr=0.015000 | F=0.20 | ASR=0.08 | CleanΔ=0.00
+[Phase-A Probe][SaLun] lr=0.060000 | F=0.56 | ASR=0.57 | CleanΔ=0.07
+[Phase-A SUCCESS][SaLun] lr* = 0.060000
+train_retain_dl: 49950
+train_forget_dl: 50
+dl_poison_train: 2500
+test_poison_dl: 9000
+test_clean_dl: 10000
